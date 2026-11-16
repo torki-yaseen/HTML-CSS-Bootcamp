@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms controls</h1>
+    <!-- google search it's about the action and the name 'q' -->
+    <!-- <form action="https://google.com">
+        <input type="text" name='q'>
+        <button>search</button>
+    </form> -->
+
+    <form>
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" id="firstName" placeholder="First name" required>
+        <label for="secondName">Second Name</label>
+        <input type="text" name="secondName" id="secondName" placeholder="Second name">
+        <label for="email">Email</label>
+        <input type="Email" name="email" id="email" required placeholder="Email">
+        <label for="password">password</label>
+        <input type="password" name="password" id="password" required placeholder="password">
+        <button>search</button>
+    </form>
+
+    <form>
+            <label for="tos" >I gree on terms and conditions of the service</label>
+        <input type="checkbox" name="tos" id="tos" required>
+        
+        <textarea name="comments" id="comments" placeholder="Your comments are important to us"></textarea>
+    </form>
+
+
+    <form>
+            <label id="size">choose your size</label>
+        <select id="size" name="size" required>
+        <option value="s">small</option>
+        <option value="m">medium</option>
+        <option value="l">large</option>
+    </form>
+
+
+    <form>
+        
+        <input type="radio" id="telephone" name="contact" value="telephone"> 
+        <label for="telephone">telephone</label>
+
+        
+        <input type="radio" id="em" name="contact" value="em">
+        <label for="em">email</label>
+
+        
+        <input type="radio" id="store" name="contact" value="store">
+        <label for="store">store</label>
+        
+        
+    </form>
+
+</body>
+</html>
