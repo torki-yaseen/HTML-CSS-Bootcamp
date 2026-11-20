@@ -24,13 +24,15 @@ li {
   background-color: gray;
   opacity: 0.5;
 } */
-h1 {
-  /* font-family: "Henny Penny", "Segoe UI", "sans-serif", Futura; */
+
+/* h1 {
+  font-family: "Henny Penny", "Segoe UI", "sans-serif", Futura;
   text-align: center;
   letter-spacing: 10px;
   text-shadow: magenta 10px 5px 2px;
-}
-body {
+} */
+
+/* body {
   font-family:
     "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -39,4 +41,37 @@ body {
   font-style: normal;
   word-spacing: 10px;
   line-height: 2;
+} */
+
+/* p {
+  text-transform: lowercase;
+}
+h1 {
+  text-transform: uppercase;
+  /* text-decoration-line: line-through;
+  text-decoration-color: cyan; */
+
+/* #featured {
+  background-color: gold;
+}
+.tag {
+  text-decoration-line: underline;
+  color: #000;
+}
+#cast {
+  list-style-type: "☺";
+  list-style: lower-roman;
+}
+  */
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: chartreuse;
+  cursor: pointer;
 }
