@@ -1,5 +1,28 @@
-#link {
+p {
   font-size: 30px;
+}
+
+#word {
+  border: 10px solid teal;
+  padding: 20px;
+  margin: 30px;
+  display: block;
+}
+#word2 {
+  border: 10px solid teal;
+  padding: 20px;
+  margin: 30px;
+  display: inline-block;
+}
+h1 {
+  border: 10px solid teal;
+  padding: 20px;
+  margin: 30px;
+  display: inline;
+}
+.box {
   border: 1px solid red;
-  padding: 10px;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
 }
