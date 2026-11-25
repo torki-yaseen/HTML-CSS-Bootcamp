@@ -6,3 +6,13 @@ p {
 div {
   margin-left: 40px;
 }
+.box {
+  width: 80%;
+  min-width: 300px;
+  max-width: 600px;
+  height: 200px;
+  background-color: mediumvioletred;
+  border: 10px solid pink;
+  padding: 10px;
+  border-radius: 30px;
+}
