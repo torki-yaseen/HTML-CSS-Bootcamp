@@ -1,28 +1,68 @@
-p {
-  border: 2px solid navajowhite;
-  margin-top: 0px;
-  margin-bottom: 20px;
-}
-div {
-  margin-left: 40px;
-}
-.box {
-  width: 80%;
-  min-width: 300px;
-  max-width: 600px;
-  height: 200px;
-  background-color: mediumvioletred;
-  border: 10px solid pink;
-  padding: 10px;
-  border-radius: 30px;
+body {
+  /* Helvetica/Arial match the font in the picture */
+  font-family: Helvetica, Arial, sans-serif;
+  /* remove the browser's default 8px space around the page */
+  margin: 0;
 }
 
-.shadow {
-  width: 150px;
-  height: 50px;
-  border: 1px solid gray;
-  overflow: scroll;
-  margin: 0 auto;
-  border-radius: 10px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+.main {
+  /* the dark frame is now a background, not a border,
+     because a border cannot give the white a curve */
+  background-color: #3d3430;
+  width: 600px;
+  /* 30px = the thickness of the dark frame (was 40px;
+     the 40px moved to .inner) */
+  padding: 30px;
+  margin: 40px;
+}
+
+/* NEW: the white card. Before, .inner was empty, so
+   there was no white box to round */
+.inner {
+  /* the white must be set here, or the curve has
+     nothing to show on */
+  background-color: white;
+  /* this creates the curved corners */
+  border-radius: 30px;
+  /* 40px space between the card edge and the text */
+  padding: 40px;
+}
+
+h1 {
+  font-size: 28px;
+  /* the red line is bold in the picture (was lighter) */
+  font-weight: bold;
+  color: #a6192e;
+  /* remove the default heading margin so no extra gap */
+  margin: 0;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: lighter;
+  /* dark brown text like the picture (was default black) */
+  color: #3d3430;
+  /* 0 top, 28px bottom = the 28px gap in the picture */
+  margin: 0 0 28px 0;
+}
+
+p {
+  font-size: 28px;
+  /* dark brown text like the picture */
+  color: #3d3430;
+  /* 40px under the paragraph, before the button */
+  margin: 0 0 40px 0;
+}
+
+button {
+  font-size: 24px;
+  /* the button text is bold in the picture */
+  font-weight: bold;
+  /* same dark brown as everything else (#3d3430) */
+  background-color: #3d3430;
+  color: white;
+  /* remove the default gray button border */
+  border: none;
+  /* 30px top/bottom, 40px left/right (was reversed) */
+  padding: 30px 40px;
 }
